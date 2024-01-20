@@ -3,7 +3,7 @@ import requests
 import telebot
 import time, base64, marshal, zlib, py_compile
 import os , sys
-token = Mody.QQZ_T
+token = Mody.Mody
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands = ['start'])
 def start(message):
