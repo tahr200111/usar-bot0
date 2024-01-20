@@ -1,0 +1,25 @@
+{
+	"name": "ENCODE",
+	"description": "بوت تشفير الملفات",
+	"logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+    "env": {
+        "ELHYBA": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""            
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
